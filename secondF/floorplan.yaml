@@ -295,7 +295,7 @@ elements:
           action: none
         hold_action:
           action: none
-        image: /local/floorplan/light.sidewalk_strip_light.png?version=23BB6B1C968AB8F0CE73FB75898A4A00
+        image: /local/floorplan/light.sidewalk_strip_light.png?version=02A5FD4F2BF90ECD22D6ECCC33551535
         filter: none
         style:
           left: 50%
@@ -1294,8 +1294,8 @@ elements:
     entity: light.girls_bathroom_mirror_light
     title: null
     style:
-      top: 10.59%
-      left: 66.14%
+      top: 9.02%
+      left: 66.78%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1310,8 +1310,8 @@ elements:
     entity: light.balcony_strip_light
     title: null
     style:
-      top: 48.27%
-      left: 14.60%
+      top: 48.20%
+      left: 12.98%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1326,8 +1326,8 @@ elements:
     entity: light.moms_bathroom_mirror_light
     title: null
     style:
-      top: 12.86%
-      left: 39.04%
+      top: 11.36%
+      left: 38.60%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1342,8 +1342,8 @@ elements:
     entity: light.masters_wic_light
     title: null
     style:
-      top: 14.97%
-      left: 20.71%
+      top: 13.49%
+      left: 19.48%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1358,8 +1358,8 @@ elements:
     entity: light.br2_wic_pin_light
     title: null
     style:
-      top: 15.56%
-      left: 63.34%
+      top: 14.11%
+      left: 63.91%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1374,8 +1374,8 @@ elements:
     entity: light.front_wing_pin_light
     title: null
     style:
-      top: 43.02%
-      left: 84.68%
+      top: 42.89%
+      left: 86.22%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1390,8 +1390,8 @@ elements:
     entity: light.hallway_back_wing_light
     title: null
     style:
-      top: 8.02%
-      left: 30.68%
+      top: 6.26%
+      left: 29.87%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1406,8 +1406,8 @@ elements:
     entity: light.storage_2f
     title: null
     style:
-      top: 28.13%
-      left: 51.77%
+      top: 27.18%
+      left: 51.84%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1422,8 +1422,8 @@ elements:
     entity: light.stair_pin_light
     title: null
     style:
-      top: 32.53%
-      left: 60.07%
+      top: 32.07%
+      left: 60.40%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1438,8 +1438,8 @@ elements:
     entity: light.shade_pin_light
     title: null
     style:
-      top: 40.89%
-      left: 56.63%
+      top: 40.49%
+      left: 56.93%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1454,8 +1454,8 @@ elements:
     entity: light.girls_bathroom_pin_light
     title: null
     style:
-      top: 10.85%
-      left: 63.50%
+      top: 9.20%
+      left: 64.08%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1470,8 +1470,8 @@ elements:
     entity: light.moms_cove_light
     title: null
     style:
-      top: 18.49%
-      left: 43.56%
+      top: 17.08%
+      left: 43.32%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1486,8 +1486,8 @@ elements:
     entity: light.br1_cove_light
     title: null
     style:
-      top: 10.02%
-      left: 77.44%
+      top: 8.37%
+      left: 78.61%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1502,8 +1502,8 @@ elements:
     entity: light.hallway_left_wing_light
     title: null
     style:
-      top: 38.51%
-      left: 7.78%
+      top: 37.99%
+      left: 5.86%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1518,8 +1518,8 @@ elements:
     entity: light.sidewalk_strip_light
     title: null
     style:
-      top: 50.73%
-      left: 59.08%
+      top: 52.69%
+      left: 59.32%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1534,8 +1534,8 @@ elements:
     entity: light.masters_bathroom_light
     title: null
     style:
-      top: 17.62%
-      left: 29.84%
+      top: 16.24%
+      left: 28.98%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1550,8 +1550,8 @@ elements:
     entity: light.family_area_center_light
     title: null
     style:
-      top: 31.60%
-      left: 31.86%
+      top: 30.99%
+      left: 31.05%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1566,8 +1566,8 @@ elements:
     entity: light.entertainment_center_light
     title: null
     style:
-      top: 30.18%
-      left: 80.49%
+      top: 29.36%
+      left: 81.89%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1582,8 +1582,8 @@ elements:
     entity: light.balcony_wall_light
     title: null
     style:
-      top: 42.36%
-      left: 19.91%
+      top: 42.03%
+      left: 18.59%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1598,8 +1598,8 @@ elements:
     entity: light.masters_cove_light
     title: null
     style:
-      top: 27.94%
-      left: 20.90%
+      top: 26.95%
+      left: 19.59%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1614,8 +1614,8 @@ elements:
     entity: light.porch_pin_light
     title: null
     style:
-      top: 47.98%
-      left: 65.05%
+      top: 47.90%
+      left: 65.67%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1630,8 +1630,8 @@ elements:
     entity: light.br2_wic_mirror_light
     title: null
     style:
-      top: 18.37%
-      left: 67.44%
+      top: 17.08%
+      left: 68.15%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1646,8 +1646,8 @@ elements:
     entity: light.br2_pin_light
     title: null
     style:
-      top: 18.27%
-      left: 54.20%
+      top: 16.84%
+      left: 54.37%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1662,8 +1662,8 @@ elements:
     entity: light.moms_pin_light
     title: null
     style:
-      top: 22.67%
-      left: 44.74%
+      top: 21.20%
+      left: 44.53%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1678,8 +1678,8 @@ elements:
     entity: light.moms_bathroom_niche_light
     title: null
     style:
-      top: 15.89%
-      left: 33.45%
+      top: 14.51%
+      left: 32.78%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1694,8 +1694,8 @@ elements:
     entity: light.br1_main_light
     title: null
     style:
-      top: 14.59%
-      left: 76.55%
+      top: 13.04%
+      left: 77.67%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1710,8 +1710,8 @@ elements:
     entity: light.moms_center_light
     title: null
     style:
-      top: 14.07%
-      left: 44.51%
+      top: 12.50%
+      left: 44.29%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1726,8 +1726,8 @@ elements:
     entity: light.sidewalk_pin_light
     title: null
     style:
-      top: 53.04%
-      left: 35.52%
+      top: 53.17%
+      left: 34.92%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1742,8 +1742,8 @@ elements:
     entity: light.entrance_pin_light
     title: null
     style:
-      top: 37.86%
-      left: 62.92%
+      top: 37.37%
+      left: 63.43%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1758,8 +1758,8 @@ elements:
     entity: light.outside_wall_light_2
     title: null
     style:
-      top: 48.02%
-      left: 85.02%
+      top: 47.78%
+      left: 86.49%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1774,8 +1774,8 @@ elements:
     entity: light.masters_pin_light
     title: null
     style:
-      top: 28.66%
-      left: 18.28%
+      top: 27.67%
+      left: 16.92%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1790,8 +1790,8 @@ elements:
     entity: light.masters_center_light
     title: null
     style:
-      top: 24.12%
-      left: 17.57%
+      top: 23.01%
+      left: 16.12%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1806,8 +1806,8 @@ elements:
     entity: light.hallway_pin_light
     title: null
     style:
-      top: 33.43%
-      left: 56.28%
+      top: 32.69%
+      left: 56.57%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1822,8 +1822,8 @@ elements:
     entity: light.right_wing_wall_light
     title: null
     style:
-      top: 15.44%
-      left: 80.34%
+      top: 14.03%
+      left: 81.57%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1838,8 +1838,8 @@ elements:
     entity: light.balcony_pin_light
     title: null
     style:
-      top: 41.51%
-      left: 17.17%
+      top: 41.12%
+      left: 15.67%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1854,8 +1854,8 @@ elements:
     entity: light.front_wing_canopy_pin_light
     title: null
     style:
-      top: 46.21%
-      left: 87.58%
+      top: 46.07%
+      left: 88.93%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1870,8 +1870,8 @@ elements:
     entity: light.masters_wic_cabinet_light
     title: null
     style:
-      top: 11.56%
-      left: 23.87%
+      top: 9.94%
+      left: 22.77%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1886,8 +1886,8 @@ elements:
     entity: light.br2_wic_cabinet_light
     title: null
     style:
-      top: 21.64%
-      left: 65.16%
+      top: 20.51%
+      left: 65.76%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1902,8 +1902,8 @@ elements:
     entity: light.garage_strip_light
     title: null
     style:
-      top: 43.28%
-      left: 23.44%
+      top: 43.00%
+      left: 22.35%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1918,8 +1918,8 @@ elements:
     entity: light.family_area_shelf_light
     title: null
     style:
-      top: 46.20%
-      left: 27.63%
+      top: 46.04%
+      left: 26.66%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1934,8 +1934,8 @@ elements:
     entity: light.sidewalk_wall_light
     title: null
     style:
-      top: 52.09%
-      left: 47.02%
+      top: 52.17%
+      left: 46.90%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1950,8 +1950,8 @@ elements:
     entity: light.lanai_wall_light
     title: null
     style:
-      top: 12.50%
-      left: 46.99%
+      top: 11.40%
+      left: 46.87%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1966,8 +1966,8 @@ elements:
     entity: light.entertainment_strip_light
     title: null
     style:
-      top: 34.87%
-      left: 80.58%
+      top: 34.14%
+      left: 81.94%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1982,8 +1982,8 @@ elements:
     entity: light.br1_wic_mirror_light
     title: null
     style:
-      top: 19.91%
-      left: 71.79%
+      top: 18.66%
+      left: 72.69%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -1998,8 +1998,8 @@ elements:
     entity: light.br2_cove_light
     title: null
     style:
-      top: 13.55%
-      left: 54.33%
+      top: 12.18%
+      left: 54.53%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2014,8 +2014,8 @@ elements:
     entity: light.right_wing_pin_light
     title: null
     style:
-      top: 23.78%
-      left: 84.58%
+      top: 22.65%
+      left: 86.07%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2030,8 +2030,8 @@ elements:
     entity: light.front_wing_up_down_light
     title: null
     style:
-      top: 50.69%
-      left: 76.91%
+      top: 50.72%
+      left: 78.02%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2046,8 +2046,8 @@ elements:
     entity: light.moms_bathroom_light
     title: null
     style:
-      top: 13.77%
-      left: 36.19%
+      top: 12.25%
+      left: 35.61%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2062,8 +2062,8 @@ elements:
     entity: light.girls_bathroom_niche_light
     title: null
     style:
-      top: 13.46%
-      left: 59.30%
+      top: 11.99%
+      left: 59.67%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2078,8 +2078,8 @@ elements:
     entity: light.br1_pin_light
     title: null
     style:
-      top: 22.17%
-      left: 74.92%
+      top: 20.98%
+      left: 75.99%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2094,8 +2094,8 @@ elements:
     entity: light.br2_hallway_pin_light
     title: null
     style:
-      top: 23.30%
-      left: 56.99%
+      top: 22.15%
+      left: 57.30%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2110,8 +2110,8 @@ elements:
     entity: light.garage_pin_light
     title: null
     style:
-      top: 49.06%
-      left: 18.45%
+      top: 49.03%
+      left: 17.16%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2126,8 +2126,8 @@ elements:
     entity: light.hallway_outside_pin_light
     title: null
     style:
-      top: 41.01%
-      left: 59.29%
+      top: 40.59%
+      left: 59.72%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2142,8 +2142,8 @@ elements:
     entity: light.entertainment_pin_light
     title: null
     style:
-      top: 37.91%
-      left: 78.54%
+      top: 37.25%
+      left: 79.83%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2158,8 +2158,8 @@ elements:
     entity: light.stairs_wall_light
     title: null
     style:
-      top: 36.43%
-      left: 58.40%
+      top: 35.69%
+      left: 58.77%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2174,8 +2174,8 @@ elements:
     entity: light.outside_wall_light
     title: null
     style:
-      top: 67.92%
-      left: 36.53%
+      top: 68.66%
+      left: 35.97%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2190,8 +2190,8 @@ elements:
     entity: light.family_area_cabinet_light
     title: null
     style:
-      top: 24.93%
-      left: 32.61%
+      top: 23.83%
+      left: 31.85%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2206,8 +2206,8 @@ elements:
     entity: light.family_area_pin_light
     title: null
     style:
-      top: 36.43%
-      left: 32.41%
+      top: 35.60%
+      left: 31.62%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2222,8 +2222,8 @@ elements:
     entity: light.br2_center_light
     title: null
     style:
-      top: 8.88%
-      left: 54.53%
+      top: 7.27%
+      left: 54.73%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2238,8 +2238,8 @@ elements:
     entity: light.main_gate_light
     title: null
     style:
-      top: 64.50%
-      left: 64.39%
+      top: 65.09%
+      left: 64.98%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2254,8 +2254,8 @@ elements:
     entity: light.right_wing_strip_light
     title: null
     style:
-      top: 14.30%
-      left: 82.89%
+      top: 12.76%
+      left: 84.30%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2270,8 +2270,8 @@ elements:
     entity: light.br1_wic_cabinet_light
     title: null
     style:
-      top: 16.50%
-      left: 69.98%
+      top: 15.01%
+      left: 70.80%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2286,8 +2286,8 @@ elements:
     entity: light.br1_wic_pin_light
     title: null
     style:
-      top: 11.82%
-      left: 69.47%
+      top: 10.27%
+      left: 70.33%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2302,8 +2302,8 @@ elements:
     entity: light.front_wing_eaves_light
     title: null
     style:
-      top: 41.22%
-      left: 87.48%
+      top: 41.10%
+      left: 89.23%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2318,8 +2318,8 @@ elements:
     entity: light.moms_wic_light
     title: null
     style:
-      top: 19.82%
-      left: 36.54%
+      top: 18.53%
+      left: 35.97%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2334,8 +2334,8 @@ elements:
     entity: light.balcony_canopy_pin_lights
     title: null
     style:
-      top: 41.23%
-      left: 26.02%
+      top: 40.83%
+      left: 24.92%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
@@ -2350,8 +2350,8 @@ elements:
     entity: light.service_outside_pin_light
     title: null
     style:
-      top: 12.72%
-      left: 29.75%
+      top: 11.29%
+      left: 28.98%
       border-radius: 50%
       text-align: center
       background-color: rgba(255, 255, 255, 0.3)
