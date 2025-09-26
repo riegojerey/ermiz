@@ -1,0 +1,2425 @@
+type: picture-elements
+image: /local/floorplan/transparent.png?version=536F9633915DBD10D9D40F26DE21E6FF
+elements:
+  - type: conditional
+    title: Base
+    conditions:
+      []
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/base.png?version=B47F4308A12D220ECFC70A2A8D581339
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+  - type: conditional
+    title: light.girls_bathroom_mirror_light
+    conditions:
+      - condition: state
+        entity: light.girls_bathroom_mirror_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.girls_bathroom_mirror_light.png?version=A957D34BF9871C62C4D12A655962A013
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.balcony_strip_light
+    conditions:
+      - condition: state
+        entity: light.balcony_strip_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.balcony_strip_light.png?version=F8DAFCE43847B7D1464F2C0CB26C9485
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.moms_bathroom_mirror_light
+    conditions:
+      - condition: state
+        entity: light.moms_bathroom_mirror_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.moms_bathroom_mirror_light.png?version=8062AED1DBF23531E9F4A0A23D4F062E
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.masters_wic_light
+    conditions:
+      - condition: state
+        entity: light.masters_wic_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.masters_wic_light.png?version=128E47F488ABB5F99186B0063BED22EC
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.br2_wic_pin_light
+    conditions:
+      - condition: state
+        entity: light.br2_wic_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.br2_wic_pin_light.png?version=5D5D7CDA27A5CD7CE3D483C950B58EB8
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.hallway_back_wing_light
+    conditions:
+      - condition: state
+        entity: light.hallway_back_wing_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.hallway_back_wing_light.png?version=02E13A8976311BD13DDC4FC314BD9B71
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.storage_2f
+    conditions:
+      - condition: state
+        entity: light.storage_2f
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.storage_2f.png?version=08E13C543048572CB8786BE17637A89C
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.stair_pin_light
+    conditions:
+      - condition: state
+        entity: light.stair_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.stair_pin_light.png?version=9B2E845E88F00D88E32454F9A56E6BBD
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.shade_pin_light
+    conditions:
+      - condition: state
+        entity: light.shade_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.shade_pin_light.png?version=736CE8BD2B3D1B56B540653640571E88
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.girls_bathroom_pin_light
+    conditions:
+      - condition: state
+        entity: light.girls_bathroom_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.girls_bathroom_pin_light.png?version=C82E191A8A2A5B5A457102416F7DA4A6
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.moms_cove_light
+    conditions:
+      - condition: state
+        entity: light.moms_cove_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.moms_cove_light.png?version=A658193907ECB433A0D337BFD44C1B2E
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.br1_cove_light
+    conditions:
+      - condition: state
+        entity: light.br1_cove_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.br1_cove_light.png?version=E88582FC0771C0A2E742648240D65552
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.sidewalk_strip_light
+    conditions:
+      - condition: state
+        entity: light.sidewalk_strip_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.sidewalk_strip_light.png?version=5082251E35F71C40A70DA5E90A03B160
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.masters_bathroom_light
+    conditions:
+      - condition: state
+        entity: light.masters_bathroom_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.masters_bathroom_light.png?version=49C3491CACBF84EAEBB261466C8B7A7A
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.family_area_center_light
+    conditions:
+      - condition: state
+        entity: light.family_area_center_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.family_area_center_light.png?version=9E1829820804D9BAC8609392D6C86A84
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.entertainment_center_light
+    conditions:
+      - condition: state
+        entity: light.entertainment_center_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.entertainment_center_light.png?version=13C8446EB97AD56FF81D13755A0EA446
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.balcony_wall_light
+    conditions:
+      - condition: state
+        entity: light.balcony_wall_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.balcony_wall_light.png?version=2DD9C8F742BA658B94BB31D240F613DD
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.masters_cove_light
+    conditions:
+      - condition: state
+        entity: light.masters_cove_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.masters_cove_light.png?version=E481E21049739B0BD634306A2CDCB511
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.br2_wic_mirror_light
+    conditions:
+      - condition: state
+        entity: light.br2_wic_mirror_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.br2_wic_mirror_light.png?version=F59B722D6889BC565E567A08603792A9
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.br2_pin_light
+    conditions:
+      - condition: state
+        entity: light.br2_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.br2_pin_light.png?version=067B55D127B3974567D1838DF63B7867
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.moms_pin_light
+    conditions:
+      - condition: state
+        entity: light.moms_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.moms_pin_light.png?version=3EC641AA894FB7D6592E3A240A1A8767
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.masters_bathroom_mirror_light
+    conditions:
+      - condition: state
+        entity: light.masters_bathroom_mirror_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.masters_bathroom_mirror_light.png?version=0842B4626DF3B02AA2F488CB40D8D6DE
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.moms_bathroom_niche_light
+    conditions:
+      - condition: state
+        entity: light.moms_bathroom_niche_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.moms_bathroom_niche_light.png?version=FEBF2D396BC7B2CB89D5983B81D73B2A
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.br1_main_light
+    conditions:
+      - condition: state
+        entity: light.br1_main_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.br1_main_light.png?version=D41AC8065956A3571BB4A92370D8E80E
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.guest_outside_pin_light
+    conditions:
+      - condition: state
+        entity: light.guest_outside_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.guest_outside_pin_light.png?version=DA89B6851953F1ED1A870FFF26EA7CDA
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.sidewalk_pin_light
+    conditions:
+      - condition: state
+        entity: light.sidewalk_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.sidewalk_pin_light.png?version=2E5E520A5773DC62E33D42CEDDD0B550
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.outside_wall_light_2
+    conditions:
+      - condition: state
+        entity: light.outside_wall_light_2
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.outside_wall_light_2.png?version=F4EEA096E358F993B74ED70AB7D52411
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.masters_pin_light
+    conditions:
+      - condition: state
+        entity: light.masters_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.masters_pin_light.png?version=C706640E273CA5DCC79AC03F98E5F81E
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.masters_center_light
+    conditions:
+      - condition: state
+        entity: light.masters_center_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.masters_center_light.png?version=F734555BFE6112FC1F0A1DFA3D5C6DD0
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.hallway_pin_light
+    conditions:
+      - condition: state
+        entity: light.hallway_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.hallway_pin_light.png?version=4A49CDF621B0E67F04EDF36F350E3104
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.right_wing_wall_light
+    conditions:
+      - condition: state
+        entity: light.right_wing_wall_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.right_wing_wall_light.png?version=E4EA3408C346701E80D3219BA0B0D041
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.masters_bathroom_niche_light
+    conditions:
+      - condition: state
+        entity: light.masters_bathroom_niche_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.masters_bathroom_niche_light.png?version=C5A048AF807D9ACEC0921ABDDAB527C9
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.front_wing_canopy_pin_light
+    conditions:
+      - condition: state
+        entity: light.front_wing_canopy_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.front_wing_canopy_pin_light.png?version=07D19D95C8E21E6C17475CF778431756
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.masters_wic_cabinet_light
+    conditions:
+      - condition: state
+        entity: light.masters_wic_cabinet_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.masters_wic_cabinet_light.png?version=909B6BE80DCBFCAB1B1E0A2E248B34FA
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.br2_wic_cabinet_light
+    conditions:
+      - condition: state
+        entity: light.br2_wic_cabinet_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.br2_wic_cabinet_light.png?version=CB4385DABE10D80D38BD16A1E8DFAEB5
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.garage_strip_light
+    conditions:
+      - condition: state
+        entity: light.garage_strip_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.garage_strip_light.png?version=37481AD6760C81467AFA24EC95ECB040
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.family_area_shelf_light
+    conditions:
+      - condition: state
+        entity: light.family_area_shelf_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.family_area_shelf_light.png?version=9235A05CDAFBB31FF64EACA070325F46
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.entertainment_cabinet_light
+    conditions:
+      - condition: state
+        entity: light.entertainment_cabinet_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.entertainment_cabinet_light.png?version=93374B3A4D6A34ED5252FE629ECD8028
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.sidewalk_wall_light
+    conditions:
+      - condition: state
+        entity: light.sidewalk_wall_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.sidewalk_wall_light.png?version=39F94F6299F27649C3AACA9891CB9D7A
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.lanai_wall_light
+    conditions:
+      - condition: state
+        entity: light.lanai_wall_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.lanai_wall_light.png?version=C93F46F2A657789C2BBB975E307DC323
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.entertainment_strip_light
+    conditions:
+      - condition: state
+        entity: light.entertainment_strip_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.entertainment_strip_light.png?version=6BB9C588FE2C74D0438C17073E550E4A
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.br1_wic_mirror_light
+    conditions:
+      - condition: state
+        entity: light.br1_wic_mirror_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.br1_wic_mirror_light.png?version=4794C566DCAE0F5E75E1EB438301F392
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.br2_cove_light
+    conditions:
+      - condition: state
+        entity: light.br2_cove_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.br2_cove_light.png?version=7C221141CF364B4FFA0984B95679CA58
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.right_wing_pin_light
+    conditions:
+      - condition: state
+        entity: light.right_wing_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.right_wing_pin_light.png?version=960B511604677F0FEBEE08294210CD5F
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.front_wing_up_down_light
+    conditions:
+      - condition: state
+        entity: light.front_wing_up_down_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.front_wing_up_down_light.png?version=9F6DACEF03D79D0F46F3AF3F27FFE409
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.moms_bathroom_light
+    conditions:
+      - condition: state
+        entity: light.moms_bathroom_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.moms_bathroom_light.png?version=3357F3886F4B7CDFEBC1FD203C4C56DD
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.girls_bathroom_niche_light
+    conditions:
+      - condition: state
+        entity: light.girls_bathroom_niche_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.girls_bathroom_niche_light.png?version=EFAC99B155A702638DAF8896EAFE26F3
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.br1_pin_light
+    conditions:
+      - condition: state
+        entity: light.br1_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.br1_pin_light.png?version=CABF727E75DA85BC46698F2F033F3288
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.br2_hallway_pin_light
+    conditions:
+      - condition: state
+        entity: light.br2_hallway_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.br2_hallway_pin_light.png?version=A3DD0B3741844F44A4CF294CBAED2710
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.garage_pin_light
+    conditions:
+      - condition: state
+        entity: light.garage_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.garage_pin_light.png?version=15E180315D9A0B9417F4432354B4CCE9
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.hallway_outside_pin_light
+    conditions:
+      - condition: state
+        entity: light.hallway_outside_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.hallway_outside_pin_light.png?version=E73F23BCFD7A74FD35023469532B7D09
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.entertainment_pin_light
+    conditions:
+      - condition: state
+        entity: light.entertainment_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.entertainment_pin_light.png?version=B8AD5C350CA9FF5A30282EC3873C26F8
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.stairs_wall_light
+    conditions:
+      - condition: state
+        entity: light.stairs_wall_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.stairs_wall_light.png?version=3951CE654D6AD077284FD9A3F69865CD
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.masters_wic_mirror_light
+    conditions:
+      - condition: state
+        entity: light.masters_wic_mirror_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.masters_wic_mirror_light.png?version=E43ACB1DF9E54B2981EE0D685F4E8233
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.outside_wall_light
+    conditions:
+      - condition: state
+        entity: light.outside_wall_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.outside_wall_light.png?version=418BE51C206108DC385D1DA77B2AF63C
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.family_area_cabinet_light
+    conditions:
+      - condition: state
+        entity: light.family_area_cabinet_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.family_area_cabinet_light.png?version=2283453ACA3E569756BD95F548A94519
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.family_area_pin_light
+    conditions:
+      - condition: state
+        entity: light.family_area_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.family_area_pin_light.png?version=E4AF8B32DD5F7B517FC8085F7D4A6953
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.br2_center_light
+    conditions:
+      - condition: state
+        entity: light.br2_center_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.br2_center_light.png?version=3E77ED958D88C790C68573443458E3C8
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.main_gate_light
+    conditions:
+      - condition: state
+        entity: light.main_gate_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.main_gate_light.png?version=1D27A81ADEA23060790370C854B92EF0
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.right_wing_strip_light
+    conditions:
+      - condition: state
+        entity: light.right_wing_strip_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.right_wing_strip_light.png?version=270352AB2645059BAE2289BE4AB355D4
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.br1_wic_cabinet_light
+    conditions:
+      - condition: state
+        entity: light.br1_wic_cabinet_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.br1_wic_cabinet_light.png?version=46A6E8610938FA7CCC019045BEC6A740
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.br1_wic_pin_light
+    conditions:
+      - condition: state
+        entity: light.br1_wic_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.br1_wic_pin_light.png?version=215491014C34FEC5BD7BAA4214035DB4
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.front_wing_eaves_light
+    conditions:
+      - condition: state
+        entity: light.front_wing_eaves_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.front_wing_eaves_light.png?version=61C44E8DA89579100FCEC846C36FB0F0
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.moms_wic_light
+    conditions:
+      - condition: state
+        entity: light.moms_wic_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.moms_wic_light.png?version=DEDD16F4C41B90798E54825435725CBD
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.balcony_canopy_pin_lights
+    conditions:
+      - condition: state
+        entity: light.balcony_canopy_pin_lights
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.balcony_canopy_pin_lights.png?version=16A0334E5F210AF1DE2AEF153B953E28
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: conditional
+    title: light.service_outside_pin_light
+    conditions:
+      - condition: state
+        entity: light.service_outside_pin_light
+        state: 'on'
+    elements:
+      - type: image
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        image: /local/floorplan/light.service_outside_pin_light.png?version=B6AF4E3B03E84CAFD0A7649486D5623F
+        filter: none
+        style:
+          left: 50%
+          top: 50%
+          width: 100%
+          mix-blend-mode: lighten
+  - type: state-icon
+    entity: light.girls_bathroom_mirror_light
+    title: null
+    style:
+      top: 9.02%
+      left: 66.78%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.balcony_strip_light
+    title: null
+    style:
+      top: 46.18%
+      left: 13.75%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.moms_bathroom_mirror_light
+    title: null
+    style:
+      top: 10.68%
+      left: 38.63%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.masters_wic_light
+    title: null
+    style:
+      top: 13.49%
+      left: 19.48%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.br2_wic_pin_light
+    title: null
+    style:
+      top: 14.11%
+      left: 63.91%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.hallway_back_wing_light
+    title: null
+    style:
+      top: 6.26%
+      left: 29.87%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.storage_2f
+    title: null
+    style:
+      top: 27.18%
+      left: 51.84%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.stair_pin_light
+    title: null
+    style:
+      top: 32.07%
+      left: 60.40%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.shade_pin_light
+    title: null
+    style:
+      top: 40.49%
+      left: 56.93%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.girls_bathroom_pin_light
+    title: null
+    style:
+      top: 9.20%
+      left: 64.08%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.moms_cove_light
+    title: null
+    style:
+      top: 15.43%
+      left: 44.29%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.br1_cove_light
+    title: null
+    style:
+      top: 8.37%
+      left: 78.61%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.sidewalk_strip_light
+    title: null
+    style:
+      top: 52.69%
+      left: 59.32%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.masters_bathroom_light
+    title: null
+    style:
+      top: 16.24%
+      left: 28.98%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.family_area_center_light
+    title: null
+    style:
+      top: 31.17%
+      left: 31.16%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.entertainment_center_light
+    title: null
+    style:
+      top: 33.12%
+      left: 83.44%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.balcony_wall_light
+    title: null
+    style:
+      top: 42.03%
+      left: 18.59%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.masters_cove_light
+    title: null
+    style:
+      top: 26.95%
+      left: 19.59%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.br2_wic_mirror_light
+    title: null
+    style:
+      top: 17.08%
+      left: 68.15%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.br2_pin_light
+    title: null
+    style:
+      top: 16.84%
+      left: 54.37%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.moms_pin_light
+    title: null
+    style:
+      top: 20.28%
+      left: 44.55%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.masters_bathroom_mirror_light
+    title: null
+    style:
+      top: 17.76%
+      left: 31.70%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.moms_bathroom_niche_light
+    title: null
+    style:
+      top: 13.34%
+      left: 32.68%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.br1_main_light
+    title: null
+    style:
+      top: 13.04%
+      left: 77.67%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.guest_outside_pin_light
+    title: null
+    style:
+      top: 14.26%
+      left: 73.53%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.sidewalk_pin_light
+    title: null
+    style:
+      top: 53.17%
+      left: 34.92%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.outside_wall_light_2
+    title: null
+    style:
+      top: 47.52%
+      left: 86.39%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.masters_pin_light
+    title: null
+    style:
+      top: 27.67%
+      left: 16.92%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.masters_center_light
+    title: null
+    style:
+      top: 23.01%
+      left: 16.12%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.hallway_pin_light
+    title: null
+    style:
+      top: 32.69%
+      left: 56.57%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.right_wing_wall_light
+    title: null
+    style:
+      top: 14.03%
+      left: 81.57%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.masters_bathroom_niche_light
+    title: null
+    style:
+      top: 27.23%
+      left: 29.58%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.front_wing_canopy_pin_light
+    title: null
+    style:
+      top: 45.59%
+      left: 88.78%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.masters_wic_cabinet_light
+    title: null
+    style:
+      top: 14.57%
+      left: 16.48%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.br2_wic_cabinet_light
+    title: null
+    style:
+      top: 20.51%
+      left: 65.76%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.garage_strip_light
+    title: null
+    style:
+      top: 43.00%
+      left: 22.35%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.family_area_shelf_light
+    title: null
+    style:
+      top: 46.04%
+      left: 26.66%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.entertainment_cabinet_light
+    title: null
+    style:
+      top: 28.93%
+      left: 79.13%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.sidewalk_wall_light
+    title: null
+    style:
+      top: 52.17%
+      left: 46.90%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.lanai_wall_light
+    title: null
+    style:
+      top: 12.33%
+      left: 46.53%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.entertainment_strip_light
+    title: null
+    style:
+      top: 32.64%
+      left: 80.77%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.br1_wic_mirror_light
+    title: null
+    style:
+      top: 18.86%
+      left: 72.60%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.br2_cove_light
+    title: null
+    style:
+      top: 12.18%
+      left: 54.53%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.right_wing_pin_light
+    title: null
+    style:
+      top: 22.65%
+      left: 86.07%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.front_wing_up_down_light
+    title: null
+    style:
+      top: 49.37%
+      left: 78.57%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.moms_bathroom_light
+    title: null
+    style:
+      top: 13.31%
+      left: 36.02%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.girls_bathroom_niche_light
+    title: null
+    style:
+      top: 10.37%
+      left: 59.90%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.br1_pin_light
+    title: null
+    style:
+      top: 20.98%
+      left: 75.99%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.br2_hallway_pin_light
+    title: null
+    style:
+      top: 22.15%
+      left: 57.30%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.garage_pin_light
+    title: null
+    style:
+      top: 49.03%
+      left: 17.16%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.hallway_outside_pin_light
+    title: null
+    style:
+      top: 40.59%
+      left: 59.72%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.entertainment_pin_light
+    title: null
+    style:
+      top: 37.41%
+      left: 80.32%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.stairs_wall_light
+    title: null
+    style:
+      top: 35.69%
+      left: 58.77%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.masters_wic_mirror_light
+    title: null
+    style:
+      top: 10.35%
+      left: 23.99%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.outside_wall_light
+    title: null
+    style:
+      top: 68.66%
+      left: 35.97%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.family_area_cabinet_light
+    title: null
+    style:
+      top: 22.37%
+      left: 31.19%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.family_area_pin_light
+    title: null
+    style:
+      top: 35.78%
+      left: 31.63%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.br2_center_light
+    title: null
+    style:
+      top: 7.27%
+      left: 54.73%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.main_gate_light
+    title: null
+    style:
+      top: 65.09%
+      left: 64.98%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.right_wing_strip_light
+    title: null
+    style:
+      top: 12.76%
+      left: 84.30%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.br1_wic_cabinet_light
+    title: null
+    style:
+      top: 15.18%
+      left: 70.85%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.br1_wic_pin_light
+    title: null
+    style:
+      top: 10.27%
+      left: 70.33%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.front_wing_eaves_light
+    title: null
+    style:
+      top: 40.78%
+      left: 89.15%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.moms_wic_light
+    title: null
+    style:
+      top: 18.53%
+      left: 35.97%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.balcony_canopy_pin_lights
+    title: null
+    style:
+      top: 40.83%
+      left: 24.92%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: light.service_outside_pin_light
+    title: null
+    style:
+      top: 9.45%
+      left: 34.19%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: climate.g2_ac
+    title: null
+    style:
+      top: 14.96%
+      left: 58.99%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: climate.masters_ac
+    title: null
+    style:
+      top: 19.02%
+      left: 24.57%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: media_player.entertainment_tv
+    title: null
+    style:
+      top: 52.80%
+      left: 76.73%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: climate.moms_ac
+    title: null
+    style:
+      top: 18.01%
+      left: 49.17%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: climate.g1_ac
+    title: null
+    style:
+      top: 9.72%
+      left: 74.25%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
+  - type: state-icon
+    entity: climate.family_ac
+    title: null
+    style:
+      top: 26.63%
+      left: 32.24%
+      border-radius: 50%
+      text-align: center
+      background-color: rgba(255, 255, 255, 0.3)
+      opacity: 100%
+    tap_action:
+      action: toggle
+    double_tap_action:
+      action: none
+    hold_action:
+      action: more-info
